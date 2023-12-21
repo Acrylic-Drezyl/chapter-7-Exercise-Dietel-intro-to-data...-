@@ -1,0 +1,18 @@
+/**(Research: array Method astype) Research in the NumPy documentation the
+array method astype, which converts an array’s elements to another type. Use
+linspace to create a 1-by-6 array with the values 1.1, 2.2, …, 6.6. Then, use astype to
+convert the array to integers, then convert it to an array with floats and finally, convert
+it to an array of strings.**/
+
+
+import numpy as np
+import pandas as pd
+
+hux=np.linspace(1,6)
+hux
+
+#Converting to integers
+hux.astype('i')
+
+#converting  to floats
+hy=ux.astype('f)
